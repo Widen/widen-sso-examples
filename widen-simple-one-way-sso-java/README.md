@@ -7,7 +7,7 @@ This is an example Java project that leverages Sprint Boot to illustrate how to 
 Simply clone and run:
 
 ```bash
-$ git@github.com:widen/widen-sso-examples
+$ git clone git@github.com:widen/widen-sso-examples
 $ cd widen-sso-examples/widen-simple-one-way-sso-java
 $ ./gradlew bootRun
 ```
