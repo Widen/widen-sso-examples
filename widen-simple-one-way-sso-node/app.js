@@ -16,7 +16,7 @@ app.get('/get', function (req, res) {
 })
 
 app.set('view engine', 'pug')
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Widen Simple One-Way SSO Node.js Example app listening on port ${port}!`))
 
 const userFields = () => {
   let fields = {
