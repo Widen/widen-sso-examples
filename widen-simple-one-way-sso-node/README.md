@@ -9,6 +9,7 @@ Simply clone and run:
 ```bash
 $ git clone git@github.com:widen/widen-sso-examples
 $ cd widen-sso-examples/widen-simple-one-way-sso-node
+$ npm install
 $ node app.js
 ```
 
