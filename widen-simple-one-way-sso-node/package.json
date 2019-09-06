@@ -1,0 +1,25 @@
+{
+  "name": "widen-simple-one-way-sso-node",
+  "version": "1.0.0",
+  "description": "Widen Simple One-Way SSO Node.js Example",
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widen/widen-sso-examples.git"
+  },
+  "author": "Widen Enterprises, Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Widen/widen-sso-examples/issues"
+  },
+  "homepage": "https://github.com/Widen/widen-sso-examples#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "md5": "^2.2.1",
+    "pug": "^2.0.4"
+  }
+}
