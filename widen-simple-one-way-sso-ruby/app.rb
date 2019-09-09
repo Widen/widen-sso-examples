@@ -3,6 +3,8 @@ require 'haml'
 require 'time'
 require 'digest'
 
+set :port, 8080
+
 ENDPOINT = 'https://example.widencollective.com'
 SHARED_SECRET = rand(36**8).to_s(36)
 
@@ -44,7 +46,7 @@ def userFields
   puts "fieldStringWithSharedSecret = #{fieldStringWithSharedSecret}"
 
   # Calculate md5 hash of the field String with shared secret
-  signature = Digest::MD5.new.update('fieldStringWithSharedSecret').hexdigest
+  signature = Digest::MD5.new.update(fieldStringWithSharedSecret).hexdigest
   puts "signature = #{signature}"
 
   fields[:signature] = signature
