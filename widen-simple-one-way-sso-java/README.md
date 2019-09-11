@@ -1,6 +1,6 @@
 # Widen Simple One-Way SSO Java Example
 
-This is an example Java project that leverages Spring Boot to illustrate how to easily implement Widen's Simple One-Way SSO, complete with fully functional examples.
+This is an example [Java](https://www.java.com/) project that leverages [Spring Boot](https://spring.io/projects/spring-boot) to illustrate how to easily implement Widen's Simple One-Way SSO, complete with fully functional examples.
 
 ## Usage
 

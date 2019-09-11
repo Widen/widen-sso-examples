@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Widen/widen-sso-examples.git"
   },
   "author": "Widen Enterprises, Inc.",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Widen/widen-sso-examples/issues"
   },
