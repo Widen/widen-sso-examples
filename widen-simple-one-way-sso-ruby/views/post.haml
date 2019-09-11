@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %title Widen Simple One-Way SSO
+    %meta{'http-equiv' => 'Content-Type', 'content' => 'text/html; charset=UTF-8'}
+  %body
+    %h1 Widen Simple One-Way SSO
+    %h2 HTTP POST (application/x-www-form-urlencoded) Example
+    %form{'action' => @endpoint, 'method' => 'post'}
+      %input{:type => 'hidden', :name => 'timestamp', :value =>  @fields[:timestamp]}
+      %input{:type => 'hidden', :name => 'guid', :value =>  @fields[:guid]}
+      %input{:type => 'hidden', :name => 'email', :value =>  @fields[:email]}
+      %input{:type => 'hidden', :name => 'first_name', :value =>  @fields[:first_name]}
+      %input{:type => 'hidden', :name => 'last_name', :value =>  @fields[:last_name]}
+      %input{:type => 'hidden', :name => 'roles', :value =>  @fields[:roles]}
+      %input{:type => 'hidden', :name => 'signature', :value =>  @fields[:signature]}
+      %button Login
