@@ -1,6 +1,6 @@
 # Widen Simple One-Way SSO Node.js Example
 
-This is an example Node.js project that leverages Express to illustrate how to easily implement Widen's Simple One-Way SSO, complete with fully functional examples.
+This is an example [Node.js](https://nodejs.org/) project that leverages [Express](https://expressjs.com/) to illustrate how to easily implement Widen's Simple One-Way SSO, complete with fully functional examples.
 
 ## Usage
 
