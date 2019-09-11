@@ -5,7 +5,7 @@ require 'digest'
 
 set :port, 8080
 
-ENDPOINT = 'https://example.widencollective.com'
+ENDPOINT = 'https://example.widencollective.com/login/simple'
 SHARED_SECRET = rand(36**8).to_s(36)
 
 get '/' do

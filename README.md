@@ -6,5 +6,6 @@ For more information, [see our community documentation](https://community.widen.
 
 ## Example Code Projects
 
-* [Simple One-Way SSO (Java)](widen-simple-one-way-sso-java/README.md)
-* [Simple One-Way SSO (Node.js)](widen-simple-one-way-sso-node/README.md)
+* [Simple One-Way SSO (Java)](/widen-simple-one-way-sso-java)
+* [Simple One-Way SSO (Node.js)](/widen-simple-one-way-sso-node)
+* [Simple One-Way SSO (Ruby)](/widen-simple-one-way-sso-ruby)
