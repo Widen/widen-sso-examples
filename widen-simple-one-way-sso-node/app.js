@@ -9,7 +9,7 @@ const sharedSecret = Math.random().toString(36).substring(2, 15)
 app.get('/', function (req, res) { res.render('app') })
 app.get('/post', function (req, res) { res.render('post', { endpoint, ...userFields() }) })
 app.get('/get', function (req, res) {
-  const queryParams = Object.entries(userFields()).map((key, value) => `${key}=${value}`).join('&')
+  const queryParams = Object.entries(userFields()).map(([key, value]) => `${key}=${value}`).join('&')
   res.render('get', {
     endpointWithParams: `${endpoint}?${queryParams}`
   })
