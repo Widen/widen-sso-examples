@@ -4,14 +4,16 @@ GEM
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
-    mustermann (1.0.3)
-    rack (2.0.8)
-    rack-protection (2.0.7)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.3)
+    rack-protection (2.0.8.1)
       rack
-    sinatra (2.0.7)
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.7)
+      rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
     temple (0.8.1)
     tilt (2.0.9)
@@ -21,7 +23,7 @@ PLATFORMS
 
 DEPENDENCIES
   haml (~> 5.1)
-  sinatra (~> 2.0)
+  sinatra (~> 2.0.8.1)
 
 BUNDLED WITH
-   1.16.0
+   1.17.2
