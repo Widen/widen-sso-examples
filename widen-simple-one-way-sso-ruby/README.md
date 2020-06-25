@@ -30,4 +30,4 @@ SHARED_SECRET = rand(36**8).to_s(36)
 
 ## Further Documentation
 
-* https://community.widen.com/collective/s/article/How-do-I-configure-a-simple-one-way-HTTP-post-login-SSO
+* https://community.widen.com/collective/s/article/How-do-I-configure-a-simple-one-way-SSO
