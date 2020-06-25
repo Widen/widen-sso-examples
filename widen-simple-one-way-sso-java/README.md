@@ -29,4 +29,4 @@ com.widen.sso.simple.shared-secret=${random.uuid}
 
 ## Further Documentation
 
-* https://community.widen.com/collective/s/article/How-do-I-configure-a-simple-one-way-HTTP-post-login-SSO
+* https://community.widen.com/collective/s/article/How-do-I-configure-a-simple-one-way-SSO
